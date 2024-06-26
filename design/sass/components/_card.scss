@@ -1,0 +1,36 @@
+.card {
+  height: 47rem;
+  background-color: $color--white;
+  border-radius: 20px;
+  padding: 1.2rem;
+
+  &__img {
+    width: 100%;
+    margin-bottom: 1.2rem;
+
+    @include flexCenter;
+
+    img {
+      width: 27rem;
+      height: 27rem;
+      border-radius: 10px;
+    }
+  }
+
+  &__caption {
+    width: 28rem;
+    text-align: center;
+    padding: 1.2rem;
+
+    .heading--primary {
+      color: $color--dark_blue;
+    }
+
+    .para {
+      font-size: $fsz-para;
+      font-weight: $fw-normal;
+      color: $color--grayish_blue;
+      padding: 0.6rem 0;
+    }
+  }
+}

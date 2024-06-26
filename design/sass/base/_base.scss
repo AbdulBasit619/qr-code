@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $ff-outfit;
+}
+
+.container {
+  max-width: 1440px;
+  height: 1080px;
+  max-height: 100vh;
+  background-color: $color--lightgray;
+  margin: 0 auto;
+  @include flexCenter;
+}
