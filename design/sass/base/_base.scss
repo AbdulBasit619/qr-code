@@ -21,4 +21,6 @@ body {
   background-color: $color--lightgray;
   margin: 0 auto;
   @include flexCenter;
+  flex-direction: column;
+  gap: 1.6rem;
 }
