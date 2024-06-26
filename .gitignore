@@ -15,8 +15,9 @@
 .DS_Store
 .prettierignore
 
-/.vscode
+.vscode
 /node_modules
-/sass
-css/style.prefix.css
-css/style.comp.css
+design/sass
+design/css/style.prefix.css
+design/css/style.comp.css
+style-guide.md
