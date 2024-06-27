@@ -17,5 +17,5 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Author
 
-- Website - [Abdul Basit](https://www.abdulbasit-wd.netlify.app)
+- Website - [Abdul Basit](https://qr-code-practice-ab.netlify.app/)
 - Frontend Mentor - [@abdulbasit619](https://www.frontendmentor.io/profile/abdulbasit619)
